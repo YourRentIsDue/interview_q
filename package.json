@@ -1,0 +1,22 @@
+{
+  "name": "interview_q",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/pg": "^8.11.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.2"
+  },
+  "dependencies": {
+    "express": "^4.18.3",
+    "kysely": "^0.27.3",
+    "node-fetch": "^3.3.2",
+    "pg": "^8.11.3"
+  },
+  "scripts": {
+    "start": "ts-node ./src/app.ts",
+    "run-migrations": "ts-node ./src/db/runMigrations.ts"
+  }
+}
